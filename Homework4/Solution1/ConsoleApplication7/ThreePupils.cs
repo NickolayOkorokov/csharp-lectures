@@ -8,20 +8,20 @@ namespace ConsoleApplication7
 {
     class ExcelentPupil : Pupil
     {
-        public new void Study()
+        public override void Study()
         {
             Console.WriteLine("Exelent pupil: studying exelently");
         }
 
-        public new void Read()
+        public override void Read()
         {
             Console.WriteLine("Exelent pupil: reading exelently");
         }
-        public new void Write()
+        public override void Write()
         {
             Console.WriteLine("Exelent pupil: writing exelently");
         }
-        public new void Relax()
+        public override void Relax()
         {
             Console.WriteLine("Exelent pupil: relaxing culturally");
         }
@@ -31,20 +31,20 @@ namespace ConsoleApplication7
 
     class GoodPupil : Pupil
     {
-        public new void Study()
+        public override void Study()
         {
             Console.WriteLine("Good pupil: studying mediocre");
         }
 
-        public new void Read()
+        public override void Read()
         {
             Console.WriteLine("Good pupil: reading mediocre");
         }
-        public new void Write()
+        public override void Write()
         {
             Console.WriteLine("Good pupil: writing mediocre");
         }
-        public new void Relax()
+        public override void Relax()
         {
             Console.WriteLine("Good pupil: relaxing ");
         }
@@ -52,20 +52,20 @@ namespace ConsoleApplication7
 
     class BadPupil : Pupil
     {
-        public new void Study()
+        public override void Study()
         {
             Console.WriteLine("Bad pupil: studying bad");
         }
 
-        public new void Read()
+        public override void Read()
         {
             Console.WriteLine("Bad pupil: reading bad");
         }
-        public new void Write()
+        public override void Write()
         {
             Console.WriteLine("Bad pupil: writing bad");
         }
-        public new void Relax()
+        public override void Relax()
         {
             Console.WriteLine("Bad pupil: relaxing rowdy with drink");
         }

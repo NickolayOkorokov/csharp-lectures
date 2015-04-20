@@ -10,11 +10,11 @@ namespace ConsoleApplication7
     {
         static void Main(string[] args)
         {
-            ExcelentPupil exelent = new ExcelentPupil();
-            GoodPupil good = new GoodPupil();
-            BadPupil badpupil1 = new BadPupil();
+            Pupil exelent = new ExcelentPupil();
+            Pupil good = new GoodPupil();
+            Pupil bad = new BadPupil();
 
-            Classroom class1 = new Classroom(badpupil1);
+            Classroom class1 = new Classroom(bad, good);
             Console.ReadKey();
         }
     }

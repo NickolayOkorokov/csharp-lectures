@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4", "ConsoleApplication5\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5", "ConsoleApplication6\1.5.csproj", "{C9F7EF81-1FE5-4415-8D27-181D743D5D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.6_(NOT COMPLETED!)", "ConsoleApplication7\1.6_(NOT COMPLETED!).csproj", "{C1E7A72F-EF2C-46A5-A42E-CBE15526716A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.6", "ConsoleApplication7\1.6.csproj", "{C1E7A72F-EF2C-46A5-A42E-CBE15526716A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,29 +8,28 @@ namespace ConsoleApplication7
 {
     class Classroom
     {
-        //Pupil pupil1 = new Pupil();
-        //Pupil pupil2 = new Pupil();
-        //Pupil pupil3 = new Pupil();
-        //Pupil pupil4 = new Pupil();
-        // Classroom class1 = new Classroom();
-        //ExcelentPupil exelentpupil1 = new ExcelentPupil();
-        //GoodPupil goodpupil1 = new GoodPupil();
-        //BadPupil badpupil1 = new BadPupil();
-
         public Classroom(Pupil pupil1)
         {
-
+            pupil1.Read(); pupil1.Study(); pupil1.Write(); pupil1.Relax();
         }
-        public Classroom(string pupil1, string pupil2)
+        public Classroom(Pupil pupil1, Pupil pupil2)
         {
-
+            pupil1.Read(); pupil1.Study(); pupil1.Write(); pupil1.Relax();
+            pupil2.Read(); pupil2.Study(); pupil2.Write(); pupil2.Relax();
         }
-        public Classroom(string pupil1, string pupil2, string pupil3)
+        public Classroom(Pupil pupil1, Pupil pupil2, Pupil pupil3)
         {
+            pupil1.Read(); pupil1.Study(); pupil1.Write(); pupil1.Relax();
+            pupil2.Read(); pupil2.Study(); pupil2.Write(); pupil2.Relax();
+            pupil3.Read(); pupil3.Study(); pupil3.Write(); pupil3.Relax();
         }
-        public Classroom(string pupil1, string pupil2, string pupil3, string pupil4)
+        public Classroom(Pupil pupil1, Pupil pupil2, Pupil pupil3, Pupil pupil4)
         {
+            pupil1.Read(); pupil1.Study(); pupil1.Write(); pupil1.Relax();
+            pupil2.Read(); pupil2.Study(); pupil2.Write(); pupil2.Relax();
+            pupil3.Read(); pupil3.Study(); pupil3.Write(); pupil3.Relax();
+            pupil4.Read(); pupil4.Study(); pupil4.Write(); pupil4.Relax();
         }
-
+        //It must be some method to not copy this pupil.method() but i dont get it still;
     }
 }

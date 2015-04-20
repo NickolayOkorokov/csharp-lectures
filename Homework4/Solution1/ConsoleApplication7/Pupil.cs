@@ -6,23 +6,24 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication7
 {
-    class Pupil
+    abstract class Pupil
     {
-        public void Study()
+        public virtual void Study()
         {
             Console.WriteLine();
         }
-        public void Read()
+        public virtual void Read()
         {
             Console.WriteLine();
         }
-        public void Write()
+        public virtual void Write()
         {
             Console.WriteLine();
         }
-        public void Relax()
+        public virtual void Relax()
         {
             Console.WriteLine();
         }
+        //Probably i Shoul not use public everywhere
     }
 }
